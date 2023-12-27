@@ -109,7 +109,22 @@ EMOJIOS = [
       "👻",
       "🎃",
       "🎩",
-      "🕊",
+      "💐",
+      "🌸",
+      "🌹",
+      "🥀",
+      "🌩",
+      "💖",
+      "♨️",
+      "🎊",
+      "🦋",
+      "🌏",
+      "☃️",
+      "💘",
+      "🎈",
+      "✨",
+      "🏆",
+      "🎗",
 ]
       
 STICKER = [
@@ -125,41 +140,41 @@ STICKER = [
 ]
 START = f"""
 **๏ ʜᴇʏ, ɪ ᴀᴍ [{BOT_NAME}]({START_IMG1})**
-**ᴊɪsᴋᴇ ᴊᴀɪʙ ᴍᴇ ɢᴀɴᴅʜɪ  ᴄʜᴏʀɪ ᴜsᴋᴇ ᴘʏᴀᴀʀ ᴍᴇ ᴀᴀɴᴅʜɪ 🖤**
+** ɪ ᴄᴀɴ ᴍᴀᴋᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀᴄᴛɪᴠᴇ ʙʏ ᴛᴀʟᴋɪɴɢ ᴜsᴇʀs*
 **──────────────**
-**➻ ᴜsᴀɢᴇ /chatbot [ᴏɴ/ᴏғғ]**
-<b>||๏ 𝐀𝐊𝐄𝐋𝐄 𝐊𝐇𝐀𝐃𝐄 𝐇𝐎𝐍𝐄 𝐊𝐀 𝐒𝐀𝐇𝐀𝐒 𝐑𝐀𝐊𝐇𝐎 𝐂𝐇𝐀𝐇𝐄 𝐏𝐔𝐑𝐈 𝐊𝐀𝐘𝐍𝐀𝐓 𝐀𝐀𝐏𝐊𝐄 𝐊𝐇𝐈𝐋𝐀𝐅 𝐊𝐇𝐀𝐃𝐈 𝐇𝐎 🚬🦋🖤🔥.||</b>
+**[➻](https://telegra.ph/file/376209c1af1c134ae3050.jpg) ᴜsᴀɢᴇ /chatbot [ᴏɴ/ᴏғғ]**
+<b>||✰ 𝐀𝐊𝐄𝐋𝐄 𝐊𝐇𝐀𝐃𝐄 𝐇𝐎𝐍𝐄 𝐊𝐀 𝐒𝐀𝐇𝐀𝐒 𝐑𝐀𝐊𝐇𝐎 𝐂𝐇𝐀𝐇𝐄 𝐏𝐔𝐑𝐈 𝐊𝐀𝐘𝐍𝐀𝐓 𝐀𝐀𝐏𝐊𝐄 𝐊𝐇𝐈𝐋𝐀𝐅 𝐊𝐇𝐀𝐃𝐈 𝐇𝐎 💖.||</b>
 """
 DEV_OP = [
     [
-        InlineKeyboardButton(text="🥀 ᴏᴡɴᴇʀ 🔥", url=f"t.me/{OWNER_USERNAME}"),
-        InlineKeyboardButton(text="🥀 ꜱᴜᴘᴘᴏʀᴛ 🔥", url=f"https://t.me/{SUPPORT_GRP}"),
+        InlineKeyboardButton(text="ᴏᴡɴᴇʀ ", url=f"t.me/{OWNER_USERNAME}"),
+        InlineKeyboardButton(text=" ꜱᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{SUPPORT_GRP}"),
     ],
     [
         InlineKeyboardButton(
-            text="🥀 ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ 🔥",
+            text="🌹 ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ ✨",
             url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
         ),
     ],
     [
-        InlineKeyboardButton(text="🥀 ʜᴇʟᴘ & ᴄᴍᴅs 🔥", callback_data="HELP"),
+        InlineKeyboardButton(text=" ʜᴇʟᴘ & ᴄᴍᴅs 🔥", callback_data="HELP"),
     ],
     [
-        InlineKeyboardButton(text="🥀 sᴏᴜʀᴄᴇ 🔥", callback_data="SOURCE"),
-        InlineKeyboardButton(text="🥀 ᴀʙᴏᴜᴛ 🔥", callback_data="ABOUT"),
+        InlineKeyboardButton(text="♨️ ᴅᴇᴠᴇʟᴏᴘᴇʀ ♨️", url=f"https://t.me/SAIF_DICTATOR"),
+        InlineKeyboardButton(text=" ᴀʙᴏᴜᴛ ", callback_data="ABOUT"),
     ],
 ]
 PNG_BTN = [
     [
          InlineKeyboardButton(
-             text="🥀 ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ 🔥",
+             text="🏵 ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ 🦋",
              url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
          ),
      ],
      [
          InlineKeyboardButton(
-             text="🥀 sᴜᴘᴘᴏʀᴛ 🔥", 
-             url=f"https://t.me/{SUPPORT_GRP}",
+             text=" ᴄʜᴀɴɴᴇʟ ", 
+             url=f"https://t.me/{UPDATE_CHNL}",
          ),
      ],
 ]
@@ -172,42 +187,42 @@ HELP_READ = f"""
 """
 BACK = [
      [
-           InlineKeyboardButton(text="🥀 ʙᴀᴄᴋ 🔥", callback_data="BACK"),
+           InlineKeyboardButton(text=" ʙᴀᴄᴋ ", callback_data="BACK"),
      ],
 ]
 HELP_BTN = [
      [
-          InlineKeyboardButton(text="🥀 ᴄʜᴀᴛʙᴏᴛ 🔥", callback_data="CHATBOT_CMD"),
-          InlineKeyboardButton(text="🥀 ᴛᴏᴏʟs 🔥", callback_data="TOOLS_DATA"),
+          InlineKeyboardButton(text=" ᴄʜᴀᴛʙᴏᴛ ", callback_data="CHATBOT_CMD"),
+          InlineKeyboardButton(text=" ᴛᴏᴏʟs ", callback_data="TOOLS_DATA"),
      ],
      [
-          InlineKeyboardButton(text="🥀 ʙᴀᴄᴋ 🔥", callback_data="BACK"),
-          InlineKeyboardButton(text="🥀 ᴄʟᴏsᴇ 🔥", callback_data="CLOSE"),
+          InlineKeyboardButton(text=" ʙᴀᴄᴋ ", callback_data="BACK"),
+          InlineKeyboardButton(text="ᴄʟᴏsᴇ ", callback_data="CLOSE"),
      ],
 ]
 
 CLOSE_BTN = [
       [
-           InlineKeyboardButton(text="🥀 ᴄʟᴏsᴇ 🔥", callback_data="CLOSE"),
+           InlineKeyboardButton(text=" ᴄʟᴏsᴇ ", callback_data="CLOSE"),
       ],
 ]
 
 CHATBOT_ON = [
         [
-            InlineKeyboardButton(text="🥀 ᴇɴᴀʙʟᴇ 🔥", callback_data=f"addchat"),
-            InlineKeyboardButton(text="🥀 ᴅɪsᴀʙʟᴇ 🔥", callback_data=f"rmchat"),
+            InlineKeyboardButton(text=" ᴇɴᴀʙʟᴇ ❤", callback_data=f"addchat"),
+            InlineKeyboardButton(text="ᴅɪsᴀʙʟᴇ 💔", callback_data=f"rmchat"),
         ],
 ]
 
 PNG_BTN = [
     [
          InlineKeyboardButton(
-             text="🥀 ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ 🔥",
+             text="🌼 ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ 🔥",
              url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
          ),
      ],
      [
-         InlineKeyboardButton(text="🥀 ᴄʟᴏsᴇ 🔥", 
+         InlineKeyboardButton(text=" ᴄʟᴏsᴇ ", 
                               callback_data="CLOSE",
          ),
      ],
@@ -215,7 +230,7 @@ PNG_BTN = [
 
 TOOLS_DATA_READ = f"""
 <u>**ᴛᴏᴏʟs ғᴏʀ {BOT_NAME} ᴀʀᴇ:**</u>
-**➻ ᴜsᴇ `/repo` ғᴏʀ ɢᴇᴛᴛɪɴɢ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ!**
+**➻ ᴜsᴇ `/start` ғᴏʀ sᴛᴀʀᴛ ᴛʜɪs ʙᴏᴛ!**
 **──────────────**
 **➻ ᴜsᴇ `/ping` ғᴏʀ ᴄʜᴇᴄᴋɪɴɢ ᴛʜᴇ ᴘɪɴɢ ᴏғ {BOT_NAME}**
 **──────────────**
@@ -245,7 +260,7 @@ async def get_served_chats() -> list:
     if not chats:
         return []
     chats_list = []
-    for chat in await chats.to_list(length=1000000000):
+    for chat in await chats.to_list(length=10000000000):
         chats_list.append(chat)
     return chats_list
 
@@ -271,39 +286,38 @@ CHATBOT_READ = f"""
 """
 CHATBOT_BACK = [
         [     
-              InlineKeyboardButton(text="✨ ʙᴀᴄᴋ ✨", callback_data="CHATBOT_BACK"),
-              InlineKeyboardButton(text="❄️ ᴄʟᴏsᴇ ❄️", callback_data="CLOSE"),
+              InlineKeyboardButton(text=" ʙᴀᴄᴋ ", callback_data="CHATBOT_BACK"),
+              InlineKeyboardButton(text="ᴄʟᴏsᴇ", callback_data="CLOSE"),
         ],
 ]
 HELP_START = [
      [
-            InlineKeyboardButton(text="🚀 ʜᴇʟᴘ 🚀", callback_data="HELP"),
-            InlineKeyboardButton(text="🐳 ᴄʟᴏsᴇ 🐳", callback_data="CLOSE"),
+            InlineKeyboardButton(text=" ʜᴇʟᴘ 🚀", callback_data="HELP"),
+            InlineKeyboardButton(text="ᴄʟᴏsᴇ ", callback_data="CLOSE"),
      ],
 ]
 
 HELP_BUTN = [
      [
-           InlineKeyboardButton(text="🚀 ʜᴇʟᴘ 🚀", url=f"https://t.me/{BOT_USERNAME}?start=help"),
-           InlineKeyboardButton(text="🐳 ᴄʟᴏsᴇ 🐳", callback_data="CLOSE"),
+           InlineKeyboardButton(text=" ʜᴇʟᴘ 🚀", url=f"https://t.me/{BOT_USERNAME}?start=help"),
+           InlineKeyboardButton(text=" ᴄʟᴏsᴇ ", callback_data="CLOSE"),
      ],
 ]
 
 ABOUT_BTN = [
       [
-           InlineKeyboardButton(text="🎄 sᴜᴘᴘᴏʀᴛ 🎄", url=f"https://t.me/{SUPPORT_GRP}"),  
-           InlineKeyboardButton(text="🚀 ʜᴇʟᴘ 🚀", callback_data="HELP"),
+           InlineKeyboardButton(text=" sᴜᴘᴘᴏʀᴛ ", url=f"https://t.me/{SUPPORT_GRP}"),  
+           InlineKeyboardButton(text=" ʜᴇʟᴘ 🚀", callback_data="HELP"),
       ],
       [    
-           InlineKeyboardButton(text="🍾 ᴏᴡɴᴇʀ 🍾", url=f"https://t.me/{OWNER_USERNAME}"), 
-           InlineKeyboardButton(text="❄️ sᴏᴜʀᴄᴇ ❄️", callback_data="SOURCE"),
+           InlineKeyboardButton(text=" ᴏᴡɴᴇʀ ", url=f"https://t.me/{OWNER_USERNAME}"), 
+           InlineKeyboardButton(text="♨️ ᴅᴇᴠᴇʟᴏᴘᴇʀ ♨️", callback_data="SOURCE"),
       ],
       [ 
-           InlineKeyboardButton(text="🐳 ᴜᴘᴅᴀᴛᴇs 🐳", url=f"https://t.me/{UPDATE_CHNL}"),  
-           InlineKeyboardButton(text="✨ ʙᴀᴄᴋ ✨", callback_data="BACK"),
+           InlineKeyboardButton(text=" ᴜᴘᴅᴀᴛᴇs ", url=f"https://t.me/{UPDATE_CHNL}"),  
+           InlineKeyboardButton(text=" ʙᴀᴄᴋ ", callback_data="BACK"),
       ],
 ]
-SOURCE_READ = f"**ʜᴇʏ, ᴛʜᴇ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ᴏғ [{BOT_NAME}](https://t.me/{BOT_USERNAME}) ɪs ɢɪᴠᴇɴ ʙᴇʟᴏᴡ.**\n**ᴘʟᴇᴀsᴇ ғᴏʀᴋ ᴛʜᴇ ʀᴇᴘᴏ & ɢɪᴠᴇ ᴛʜᴇ sᴛᴀʀ ✯**\n**──────────────────**\n**ʜᴇʀᴇ ɪs ᴛʜᴇ [sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ](https://te.legra.ph/file/a2bd4dad1a15260f7fd50.jpg)**\n**──────────────────**\n**ɪғ ʏᴏᴜ ғᴀᴄᴇ ᴀɴʏ ᴘʀᴏʙʟᴇᴍ ᴛʜᴇɴ ᴄᴏɴᴛᴀᴄᴛ ᴀᴛ [sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ](https://t.me/{SUPPORT_GRP}).\n<b>||"
 
 ABOUT_READ = f"""
 **➻ [{BOT_NAME}](https://t.me/{BOT_USERNAME}) ɪs ᴀɴ ᴀɪ ʙᴀsᴇᴅ ᴄʜᴀᴛ-ʙᴏᴛ.**
@@ -311,7 +325,7 @@ ABOUT_READ = f"""
 **➻ ʜᴇʟᴘs ʏᴏᴜ ɪɴ ᴀᴄᴛɪᴠᴀᴛɪɴɢ ʏᴏᴜʀ ɢʀᴏᴜᴘs.**
 **➻ ᴡʀɪᴛᴛᴇɴ ɪɴ [ᴘʏᴛʜᴏɴ](https://www.python.org) ᴡɪᴛʜ [ᴍᴏɴɢᴏ-ᴅʙ](https://www.mongodb.com) ᴀs ᴀ ᴅᴀᴛᴀʙᴀsᴇ**
 **──────────────**
-**➻ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴs ɢɪᴠᴇɴ ʙᴇʟᴏᴡ ғᴏʀ ɢᴇᴛᴛɪɴɢ ʙᴀsɪᴄ ʜᴇʟᴩ ᴀɴᴅ ɪɴғᴏ ᴀʙᴏᴜᴛ [{BOT_NAME}](https://t.me/{BOT_USERNAME})**
+**[➻](https://telegra.ph/file/335abcafb3f893909e31a.jpg)ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴs ɢɪᴠᴇɴ ʙᴇʟᴏᴡ ғᴏʀ ɢᴇᴛᴛɪɴɢ ʙᴀsɪᴄ ʜᴇʟᴩ ᴀɴᴅ ɪɴғᴏ ᴀʙᴏᴜᴛ [{BOT_NAME}](https://t.me/{BOT_USERNAME})**
 """
 @bot.on_message(filters.command(["start", "aistart", f"start@{BOT_USERNAME}"]))
 async def restart(client, m: Message):
@@ -320,11 +334,11 @@ async def restart(client, m: Message):
             text = random.choice(EMOJIOS),
         )
         await asyncio.sleep(1.3)
-        await accha.edit("🦋𝗡𝗢𝗪 𝗖𝗢𝗠𝗘 𝗛𝗘𝗥𝗘 👉 @BRANDED_WORLD , @BRANDRD_BOT , @BRANDED_PAID_CC 𝗔𝗡𝗗 𝗠𝗔𝗞𝗘 𝗬𝗢𝗨𝗥 𝗚𝗜𝗥𝗟𝗙𝗥𝗜𝗡𝗗 🥀💋 𝗜𝗙 𝗬𝗢 𝗛𝗔𝗩𝗘 𝗔 𝗚𝗜𝗥𝗟𝗙𝗜𝗘𝗡𝗗  😘 𝗧𝗛𝗘𝗡 𝗬𝗢𝗨 𝗪𝗜𝗟𝗟 𝗚𝗜𝗙𝗧 🙊 𝗧𝗢 𝗠𝗬 𝗢𝗪𝗡𝗘𝗥 @BRANDEDKING82 ❤️")
+        await accha.edit("sᴛᴀʀᴛ..")
         await asyncio.sleep(0.2)
-        await accha.edit("🦋𝗡𝗢𝗪 𝗖𝗢𝗠𝗘 𝗛𝗘𝗥𝗘 👉 @BRANDED_WORLD , @BRANDRD_BOT , @BRANDED_PAID_CC 𝗔𝗡𝗗 𝗠𝗔𝗞𝗘 𝗬𝗢𝗨𝗥 𝗚𝗜𝗥𝗟𝗙𝗥𝗜𝗡𝗗 🥀💋 𝗜𝗙 𝗬𝗢 𝗛𝗔𝗩𝗘 𝗔 𝗚𝗜𝗥𝗟𝗙𝗜𝗘𝗡𝗗  😘 𝗧𝗛𝗘𝗡 𝗬𝗢𝗨 𝗪𝗜𝗟𝗟 𝗚𝗜𝗙𝗧 🙊 𝗧𝗢 𝗠𝗬 𝗢𝗪𝗡𝗘𝗥 @BRANDEDKING82 ❤️")
+        await accha.edit("sᴛᴀʀᴛɪɴɢ......")
         await asyncio.sleep(0.2)
-        await accha.edit("🦋𝗡𝗢𝗪 𝗖𝗢𝗠𝗘 𝗛𝗘𝗥𝗘 👉 @BRANDED_WORLD , @BRANDRD_BOT , @BRANDED_PAID_CC 𝗔𝗡𝗗 𝗠𝗔𝗞𝗘 𝗬𝗢𝗨𝗥 𝗚𝗜𝗥𝗟𝗙𝗥𝗜𝗡𝗗 🥀💋 𝗜𝗙 𝗬𝗢 𝗛𝗔𝗩𝗘 𝗔 𝗚𝗜𝗥𝗟𝗙𝗜𝗘𝗡𝗗  😘 𝗧𝗛𝗘𝗡 𝗬𝗢𝗨 𝗪𝗜𝗟𝗟 𝗚𝗜𝗙𝗧 🙊 𝗧𝗢 𝗠𝗬 𝗢𝗪𝗡𝗘𝗥 @BRANDEDKING82 ❤️")
+        await accha.edit("ʀᴏsᴇ ᴄʜᴀᴛ ʙᴏᴛ sᴛᴀʀᴛᴇᴅ.....")
         await asyncio.sleep(0.2)
         await accha.delete()
         umm = await m.reply_sticker(sticker=random.choice(STICKER))
@@ -360,13 +374,6 @@ async def cb_handler(Client, query: CallbackQuery):
             await query.message.edit(
                   text = START,
                   reply_markup=InlineKeyboardMarkup(DEV_OP),
-     )
-    elif query.data == "SOURCE":
-            await query.message.edit(
-                   text = SOURCE_READ,
-                   reply_markup = InlineKeyboardMarkup(BACK),
-                   disable_web_page_preview = True,
-
      )
     elif query.data == "ABOUT":
             await query.message.edit(
@@ -456,7 +463,7 @@ async def restart(client, m: Message):
 async def get_st(_, msg: Message):
     users = len(await get_served_users())
     chats = len(await get_served_chats())
-    await msg.reply_photo(photo="https://te.legra.ph/file/b02dd02e4e3e7989c4ad7.jpg",
+    await msg.reply_photo(photo="https://telegra.ph/file/4bc692df76d2497d08976.jpg",
                           caption=f"""ᴛᴏᴛᴀʟ sᴛᴀᴛs ᴏғ {BOT_NAME}
           ➻ **ᴄʜᴀᴛs :** {chats}
           ➻ **ᴜsᴇʀs :** {users}"""
@@ -474,7 +481,7 @@ async def ping(client, message: Message):
     ms = (datetime.now()-start).microseconds / 1000
     await message.reply_photo(
         photo=random.choice(PHOTO),
-        caption=f"нey вαву!!\n**[{BOT_NAME}](t.me/{BOT_USERNAME})** ιѕ alιve 🥀 αnd worĸιng ғιne wιтн a pιng oғ\n➥ `{ms}` ms\n\n<b>||мαdє ωιтн ❣️ ву [Developer](https://t.me/{OWNER_USERNAME})||</b>",
+        caption=f"нey вαву!!\n**[{BOT_NAME}](t.me/{BOT_USERNAME})** ιѕ alιve 🥀 αnd worĸιng ғιne wιтн a pιng oғ\n➥ `{ms}` ms\n\n<b>||мαdє ωιтн ❣️ ву [Developer](https://t.me/SAIF_DICTATOR)||</b>",
         reply_markup=InlineKeyboardMarkup(PNG_BTN),
     )
 
@@ -717,5 +724,5 @@ async def vickprivatesticker(client: Client, message: Message):
            if not Yo == "text":
                await message.reply_sticker(f"{hey}")
 
-print(f"{BOT_NAME} 𝗜𝗦 𝗔𝗟𝗜𝗩𝗘! 𝗡𝗢𝗪 𝗙𝗨𝗖𝗞 𝗢𝗙𝗙! 𝗦𝗘𝗡𝗗 𝗬𝗢𝗨𝗥 𝗚𝗜𝗥𝗟𝗙𝗥𝗜𝗘𝗡𝗗 𝗧𝗢 @BRANDEDKING82 , @BRANDED_WORLD , @BRANDRD_BOT , @BRANDED_PAID_CC 𝗕𝗜𝗧𝗖𝗛!!")      
+print(f"{BOT_NAME} 𝗜𝗦 𝗔𝗟𝗜𝗩𝗘! 𝙰𝙽𝙳 𝚆𝙾𝚁𝙺𝙸𝙽𝙶 𝙵𝙸𝙽𝙴 𝚃𝙷𝙸𝚂 𝚁𝙴𝙿𝙾 𝚆𝙰𝚂 𝙼𝙰𝙳𝙴 𝙱𝚈 𝚂𝙰𝙸𝙵 ғᴏʀ ᴍᴏʀᴇ ᴘʟᴇᴀsᴇ ᴄᴏɴᴛᴀᴄᴛ @SAIF_DICTATOR!!")      
 bot.run()
