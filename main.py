@@ -311,7 +311,7 @@ ABOUT_BTN = [
       ],
       [    
            InlineKeyboardButton(text=" ᴏᴡɴᴇʀ ", url=f"https://t.me/{OWNER_USERNAME}"), 
-           InlineKeyboardButton(text="♨️ ᴅᴇᴠᴇʟᴏᴘᴇʀ ♨️", callback_data="SOURCE"),
+           InlineKeyboardButton(text="♨️ ᴅᴇᴠᴇʟᴏᴘᴇʀ ♨️", url=f"hhtps://t.me/SAIF_DICTATOR"),
       ],
       [ 
            InlineKeyboardButton(text=" ᴜᴘᴅᴀᴛᴇs ", url=f"https://t.me/{UPDATE_CHNL}"),  
@@ -344,15 +344,13 @@ async def restart(client, m: Message):
         umm = await m.reply_sticker(sticker=random.choice(STICKER))
         await asyncio.sleep(2)
         await umm.delete()
-        await m.reply_photo(
-            photo = random.choice(PHOTO),
-            reply_markup=InlineKeyboardMarkup(DEV_OP),
+        await m.reply_photo(photo=random.choice(PHOTO),
+        reply_markup=InlineKeyboardMarkup(DEV_OP),
 
         )
         await add_served_user(m.from_user.id)
     else:
-        await m.reply_photo(
-            photo=random.choice(PHOTO),
+        await m.reply_photo(photo=random.choice(PHOTO),
             caption=START,
             reply_markup=InlineKeyboardMarkup(HELP_START),
         )
@@ -479,8 +477,7 @@ async def ping(client, message: Message):
     start = datetime.now()
     wtfbhemchomd = await message.reply_sticker(sticker= random.choice(STICKER))
     ms = (datetime.now()-start).microseconds / 1000
-    await message.reply_photo(
-        photo=random.choice(PHOTO),
+    await message.reply_photo(photo=random.choice(PHOTO),
         caption=f"нey вαву!!\n**[{BOT_NAME}](t.me/{BOT_USERNAME})** ιѕ alιve 🥀 αnd worĸιng ғιne wιтн a pιng oғ\n➥ `{ms}` ms\n\n<b>||мαdє ωιтн ❣️ ву [Developer](https://t.me/SAIF_DICTATOR)||</b>",
         reply_markup=InlineKeyboardMarkup(PNG_BTN),
     )
