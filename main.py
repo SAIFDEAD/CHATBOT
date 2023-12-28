@@ -25,26 +25,26 @@ OWNER_ID = os.environ.get("6585111267")
 OWNER_USERNAME = os.environ.get("SAIF_DICTATOR")
 SUPPORT_GRP = os.environ.get("https://t.me/SAIFHELPGC")
 BOT_NAME = os.environ.get("✰ 𝚁𝙾𝚂𝙴 𝙲𝙷𝙰𝚃 ✰")
-START_IMG1 = os.environ.get("https://telegra.ph/file/5eab357bce49e60ae3303.jpg")
-START_IMG2 = os.environ.get("https://telegra.ph/file/67900f7151e07e8ea0627.jpg")
-START_IMG3 = os.environ.get("https://telegra.ph/file/c52f03534f7551c7cf24d.jpg")
-START_IMG4 = os.environ.get("https://telegra.ph/file/6790d617de04e96ae841a.jpg")
-START_IMG5 = os.environ.get("https://telegra.ph/file/6768ebf87ab95e6d4500b.jpg")
-START_IMG6 = os.environ.get("https://telegra.ph/file/bf3cfd26cd5012f71ebfd.jpg")
-START_IMG7 = os.environ.get("https://telegra.ph/file/808e0ec8cfc3d58789f1c.jpg")
-START_IMG8 = os.environ.get("https://telegra.ph/file/70a8abb7072461855561c.jpg")
-START_IMG9 = os.environ.get("https://telegra.ph/file/edefc5f29e2f0b7cb62fa.jpg")
-START_IMG10 = os.environ.get("https://telegra.ph/file/7272a9518492dafef2d78.jpg")
-START_IMG11 = os.environ.get("https://telegra.ph/file/9df5c5e9b9f8be02c75c3.jpg")
-START_IMG12 = os.environ.get("https://telegra.ph/file/93bf28415d8ad32524267.jpg")
-START_IMG13 = os.environ.get("https://telegra.ph/file/1a1db46424a185ae00b32.jpg")
-START_IMG14 = os.environ.get("https://telegra.ph/file/376209c1af1c134ae3050.jpg")
-START_IMG15 = os.environ.get("https://telegra.ph/file/228bf634793bb383851b0.jpg")
-START_IMG16 = os.environ.get("https://telegra.ph/file/376209c1af1c134ae3050.jpg")
-START_IMG17 = os.environ.get("https://telegra.ph/file/997513cc1a382c92999e9.jpg")
-START_IMG18 = os.environ.get("https://telegra.ph/file/b45e24a94f87710d2e18a.jpg")
-START_IMG19 = os.environ.get("https://telegra.ph/file/9e789d9a6eedcad04e789.jpg")
-START_IMG20 = os.environ.get("https://telegra.ph/file/808e0ec8cfc3d58789f1c.jpg")
+START_IMG = os.environ.get("https://telegra.ph/file/5eab357bce49e60ae3303.jpg")
+START_IMG1 = os.environ.get("https://telegra.ph/file/67900f7151e07e8ea0627.jpg")
+START_IMG2 = os.environ.get("https://telegra.ph/file/c52f03534f7551c7cf24d.jpg")
+START_IMG3 = os.environ.get("https://telegra.ph/file/6790d617de04e96ae841a.jpg")
+START_IMG4 = os.environ.get("https://telegra.ph/file/6768ebf87ab95e6d4500b.jpg")
+START_IMG5 = os.environ.get("https://telegra.ph/file/bf3cfd26cd5012f71ebfd.jpg")
+START_IMG6 = os.environ.get("https://telegra.ph/file/808e0ec8cfc3d58789f1c.jpg")
+START_IMG7 = os.environ.get("https://telegra.ph/file/70a8abb7072461855561c.jpg")
+START_IMG8 = os.environ.get("https://telegra.ph/file/edefc5f29e2f0b7cb62fa.jpg")
+START_IMG9 = os.environ.get("https://telegra.ph/file/7272a9518492dafef2d78.jpg")
+START_IMG10 = os.environ.get("https://telegra.ph/file/9df5c5e9b9f8be02c75c3.jpg")
+START_IMG11 = os.environ.get("https://telegra.ph/file/93bf28415d8ad32524267.jpg")
+START_IMG12 = os.environ.get("https://telegra.ph/file/1a1db46424a185ae00b32.jpg")
+START_IMG13 = os.environ.get("https://telegra.ph/file/376209c1af1c134ae3050.jpg")
+START_IMG14 = os.environ.get("https://telegra.ph/file/228bf634793bb383851b0.jpg")
+START_IMG15 = os.environ.get("https://telegra.ph/file/376209c1af1c134ae3050.jpg")
+START_IMG16 = os.environ.get("https://telegra.ph/file/997513cc1a382c92999e9.jpg")
+START_IMG17 = os.environ.get("https://telegra.ph/file/b45e24a94f87710d2e18a.jpg")
+START_IMG18 = os.environ.get("https://telegra.ph/file/9e789d9a6eedcad04e789.jpg")
+START_IMG19 = os.environ.get("https://telegra.ph/file/808e0ec8cfc3d58789f1c.jpg")
 STKR = os.environ.get("STKR", "CAACAgUAAxkBAAIrmGPowSnK3r_vRdbF4XIGlMH96JFWAAKIBQACJIpZVFm_q-vw2ClpLgQ")
 STKR1 = os.environ.get("STKR1", "CAACAgUAAxkBAAIrkWPowR2DK8uD3MtiJrvSxDGUuOGhAAIrBQACgJ5YVOetqbdOj2DXLgQ")
 STKR2 = os.environ.get("STKR2", "CAACAgUAAxkBAAIrk2PowSDe18eYXmSUL3O6Nz8ywhYWAALsBwACbDxhVNPtqf8K-NtbLgQ")
@@ -77,6 +77,7 @@ async def is_admins(chat_id: int):
 
 
 PHOTO = [
+    START_IMG,
     START_IMG1,
     START_IMG2,
     START_IMG3,
@@ -96,7 +97,6 @@ PHOTO = [
     START_IMG17,
     START_IMG18,
     START_IMG19,
-    START_IMG20,
 ]
 
 EMOJIOS = [ 
@@ -260,7 +260,7 @@ async def get_served_chats() -> list:
     if not chats:
         return []
     chats_list = []
-    for chat in await chats.to_list(length=10000000000):
+    for chat in await chats.to_list(length=1000000000):
         chats_list.append(chat)
     return chats_list
 
@@ -346,8 +346,8 @@ async def restart(client, m: Message):
         await umm.delete()
         await m.reply_photo(
             photo = random.choice(PHOTO),
-            caption=f"""**๏ ʜᴇʏ, ɪ ᴀᴍ [{BOT_NAME}](t.me/{BOT_USERNAME})**\n**➻ ᴀɴ ᴀɪ ʙᴀsᴇᴅ ᴄʜᴀᴛʙᴏᴛ.**\n**──────────────**\n**➻ ᴜsᴀɢᴇ /chatbot [ᴏɴ/ᴏғғ]**\n<b>||๏ ʜɪᴛ ʜᴇʟᴘ ʙᴜᴛᴛᴏɴ ғᴏʀ ʜᴇʟᴘ||</b>""",
             reply_markup=InlineKeyboardMarkup(DEV_OP),
+
         )
         await add_served_user(m.from_user.id)
     else:
