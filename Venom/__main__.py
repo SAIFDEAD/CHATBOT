@@ -17,10 +17,10 @@ async def anony_boot():
     for all_module in ALL_MODULES:
         importlib.import_module("Venom.modules." + all_module)
 
-    LOGGER.info(f"@{VenomX.username} Started.")
+    LOGGER.info(f"@{VenomX.username} Started Please give star to this repo.")
     await idle()
 
 
 if __name__ == "__main__":
     asyncio.get_event_loop().run_until_complete(anony_boot())
-    LOGGER.info("Stopping Venom Bot...")
+    LOGGER.info("Stopping Sukuna Chat Bot...")
