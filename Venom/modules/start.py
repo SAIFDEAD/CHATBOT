@@ -23,18 +23,18 @@ from Venom.modules.helpers import (
 )
 
 
-@VenomX.on_cmd(["start", "aistart"])
+@VenomX.on_cmd(["start", "op"])
 async def start(_, m: Message):
     if m.chat.type == ChatType.PRIVATE:
         accha = await m.reply_text(
             text=random.choice(EMOJIOS),
         )
         await asyncio.sleep(1.3)
-        await accha.edit("__ᴅιиg ᴅσиg ꨄ︎ ѕтαятιиg..__")
+        await accha.edit("__ᴅιиg ᴅσиg ѕтαятιиg..__")
         await asyncio.sleep(0.2)
-        await accha.edit("__ᴅιиg ᴅσиg ꨄ sтαятιиg.....__")
+        await accha.edit("ƨʋκʋиα cαнтвσт cσмιиɢ ...")
         await asyncio.sleep(0.2)
-        await accha.edit("__ᴅιиg ᴅσиg ꨄ︎ sтαятιиg..__")
+        await accha.edit("𝐒ʋκαиα βσт Տтαяʏɛ∂")
         await asyncio.sleep(0.2)
         await accha.delete()
         umm = await m.reply_sticker(sticker=random.choice(STICKER))
