@@ -30,7 +30,7 @@ async def cb_handler(_, query: CallbackQuery):
         )
     elif query.data == "CLOSE":
         await query.message.delete()
-        await query.answer("ᴄʟᴏsᴇᴅ ᴍᴇɴᴜ!", show_alert=True)
+        await query.answer("𝐂ʟᴏsᴇᴅ 𝐌ᴇɴᴜ!", show_alert=True)
     elif query.data == "BACK":
         await query.message.edit(
             text=START,
