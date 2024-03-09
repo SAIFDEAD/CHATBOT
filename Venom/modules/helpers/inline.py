@@ -91,7 +91,7 @@ S_BACK = [
 CHATBOT_BACK = [
     [
         InlineKeyboardButton(text=" 𝐁ᴀᴄᴋ ✨", callback_data="CHATBOT_BACK"),
-        InlineKeyboardButton(txt="𝐂ʟᴏsᴇ ❄️", callback_data="CLOSE"),
+        InlineKeyboardButton(text="𝐂ʟᴏsᴇ ❄️", callback_data="CLOSE"),
     ],
 ]
 
