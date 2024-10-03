@@ -4,9 +4,9 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-API_ID = int(getenv("API_ID", 21966969))
+API_ID = int(getenv("API_ID", "21966969"))
 API_HASH = getenv("API_HASH", "fcc0f58560bc9f5ebc9c4207b3d26f2l")
-BOT_TOKEN = getenv("BOT_TOKEN", None)
+BOT_TOKEN = getenv("BOT_TOKEN", "7458810637:AAE2c5B7a4gCdswuYnqAARb8-49BZqTFn7c")
 OWNER_ID = int(getenv("OWNER_ID", "6585111267"))
 MONGO_URL = getenv("MONGO_URL", None)
 SUPPORT_GRP = getenv("SUPPORT_GRP", "BOTSUPPORT_CHAT")
